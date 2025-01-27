@@ -17,7 +17,7 @@ arr3 = [4;5;6]
 //disp(1,2,3)
 //disp( arr(2) )
 for i = 1 : length(arr1)
-    disp( arr(i) );
+    //disp( arr(i) );
 end
 
 for i = 1 : 5
@@ -28,15 +28,27 @@ myFunc = deff("r = @(x,y) x^2 - y")
 //myFunc(3,4)
 
 
-
+// boolean: %t %f
 b1 = %t
 b2 = %f
-
 
 if b1 == %t then
     disp("b1 true")
 else
     disp("b1 false")
+end
+
+if b2 == %t then
+    disp("b2 true")
+else
+    disp("b2 false")
+end
+
+// branching
+if b1 == 1 then
+    disp("b1")
+elseif b2 == 2 then
+    disp("b2")
 end
 
 
