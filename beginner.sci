@@ -48,14 +48,20 @@ q = -20
 
 // branching
 if q == 1 then
-    disp("branching 1")
+    disp("branching 1");
 elseif q <= 2 then
-    disp("branching 2")
+    disp("branching 2");
 else
-    disp("branching 3")
+    disp("branching 3");
 end
 
+// function
+function r = my_function (x, y)
+    r = x + y;
+endfunction
 
+z = my_function(11, 22);
+disp(z);
 
 /* operator
     ==      equality
