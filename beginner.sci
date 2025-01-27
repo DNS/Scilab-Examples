@@ -44,12 +44,27 @@ else
     disp("b2 false")
 end
 
+q = -20
+
 // branching
-if b1 == 1 then
-    disp("b1")
-elseif b2 == 2 then
-    disp("b2")
+if q == 1 then
+    disp("branching 1")
+elseif q <= 2 then
+    disp("branching 2")
+else
+    disp("branching 3")
 end
+
+
+
+/* operator
+    ==      equality
+    ~=      inequality
+    <       less than
+    <=      less than or equal
+    >       greater than
+    >=      greater than or equal
+*/
 
 
 /*
