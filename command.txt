@@ -1,0 +1,8 @@
+﻿
+# clear command window
+clc
+
+
+# clear history
+resethistory
+
